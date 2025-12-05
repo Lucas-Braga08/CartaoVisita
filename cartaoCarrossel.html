@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cartaoCarossel.css">
+</head>
+<body>
 
       <header>
         <div>
@@ -22,6 +25,18 @@
         </nav>
       </header>
 
+      <div class="carousel">
+        <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+
+        <div class="carousel-container">
+          <img src="img/img1.jpg" class="carousel-img active" alt="slide 1">
+          <img src="img/img2.jpg" class="carousel-img" alt="slide 2">
+          <img src="img/img3.jpg" class="carousel-img" alt="slide 3">
+        </div>
+
+        <button class="carousel-btn next" aria-label="Próximo">❯</button>
+      </div>
+
       <main>
         <section id="inicio">
           <h2>SUA SAÚDE SEMPRE PROTEGIDA!</h2>
@@ -36,19 +51,22 @@
             </a>
           </div>
         </section>
-
+<br>
         
         <section id="vantagens">
           <h2>Por que escolher a VitaPlus?</h2>
           <div>
+            <br>
             <div>
               <h3>🏥 Rede Completa</h3>
               <p>Acesso a hospitais, clínicas e laboratórios de primeira linha</p>
             </div>
+            <br>
             <div>
               <h3>🚨 Emergência 24h</h3>
               <p>Atendimento de emergência disponível 24 horas por dia</p>
             </div>
+            <br>
             <div>
               <h3>👨‍⚕️ Médicos Especialistas</h3>
               <p>Profissionais qualificados em todas as especialidades</p>
@@ -58,6 +76,7 @@
               <p>Consultas, exames, cirurgias e medicamentos</p>
             </div>
           </div>
+        <br>
           <p><strong>LEVE-NOS COM VOCÊ E CONTE CONOSCO EM TODOS OS MOMENTOS!</strong></p>
         </section>
 
@@ -66,6 +85,7 @@
           <h2>Escolha o Plano Ideal para Você</h2>
           <div>
             <div>
+                <br>
               <h3>💚 Plano Básico</h3>
               <p>Ideal para quem busca proteção essencial</p>
               <ul>
@@ -74,10 +94,12 @@
                 <li>✅ Emergência 24h</li>
                 <li>✅ Medicamentos básicos</li>
               </ul>
+              <br>
               <a href="#contato"><button>Solicitar Orçamento</button></a>
             </div>
-            
+            <br>
             <div>
+                <br>
               <h3>💙 Plano Completo</h3>
               <p>Proteção ampla para toda a família</p>
               <ul>
@@ -88,30 +110,18 @@
                 <li>✅ Fisioterapia e reabilitação</li>
                 <li>✅ Medicamentos especiais</li>
               </ul>
+              <br>
               <a href="#contato"><button>Solicitar Orçamento</button></a>
             </div>
             
-            <div>
-              <h3>🔴 Plano Premium</h3>
-              <p>Máxima proteção e conforto</p>
-              <ul>
-                <li>✅ Todos os benefícios do Plano Completo</li>
-                <li>✅ Atendimento VIP prioritário</li>
-                <li>✅ Quartos privativos</li>
-                <li>✅ Medicina preventiva avançada</li>
-                <li>✅ Check-ups anuais completos</li>
-                <li>✅ Segunda opinião médica</li>
-                <li>✅ Cobertura internacional</li>
-              </ul>
-              <a href="#contato"><button>Solicitar Orçamento</button></a>
-            </div>
-          </div>
         </section>
 
         
         <section id="rede">
+            <br>
           <h2>Nossa Rede Credenciada</h2>
           <p>Mais de 1.000 estabelecimentos de saúde à sua disposição:</p>
+          <br>
           <div>
             <div>
               <h3>🏥 Hospitais</h3>
@@ -122,6 +132,7 @@
                 <li>Hospital Oswaldo Cruz</li>
               </ul>
             </div>
+            <br>
             <div>
               <h3>🏢 Clínicas Especializadas</h3>
               <ul>
@@ -131,6 +142,7 @@
                 <li>Ginecologia e Obstetrícia</li>
               </ul>
             </div>
+            <br>
             <div>
               <h3>🔬 Laboratórios</h3>
               <ul>
@@ -145,6 +157,7 @@
 
        
         <section id="emergencia">
+            <br>
           <h2>🚨 Atendimento de Emergência</h2>
           <div>
             <h3>Emergência 24 Horas</h3>
@@ -254,7 +267,7 @@
             
             <div>
               <label htmlFor="mensagem">Mensagem (opcional):</label>
-              <textarea id="mensagem" name="mensagem" rows={4} placeholder="Conte-nos mais sobre suas necessidades..."></textarea>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos mais sobre suas necessidades..."></textarea>
             </div>
             
             <button type="submit">🚀 Solicitar Orçamento Gratuito</button>
@@ -275,6 +288,17 @@
         <hr />
         <div>
           <p>&copy; 2024 VitaPlus - Todos os direitos reservados</p>
+          <p>CNPJ: 00.000.000/0001-00 </p>
+        </div>
+      </footer>
+
+<script src="cartaoCarrossel.js"></script>
+</body>
+</html>
+
+        <div>
+          <p>&copy; 2024 VitaPlus - Todos os direitos reservados</p>
           <p>CNPJ: 00.000.000/0001-00 | ANS: 123456</p>
         </div>
+
       </footer>
